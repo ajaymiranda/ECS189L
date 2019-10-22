@@ -24,8 +24,8 @@ ___
 
 ## Peer-reviewer Information
 
-* *name:* [your name here] 
-* *email:* [your @ucdavis.edu email address here]
+* *name:* [Ajay Vincent Miranda] 
+* *email:* [avmiranda@ucdavis.edu]
 
 ### Description ###
 
@@ -55,7 +55,7 @@ ___
 
 ### Stage 1 ###
 
-- [ ] Perfect
+- [X] Perfect
 - [ ] Great
 - [ ] Good
 - [ ] Satisfactory
@@ -63,12 +63,12 @@ ___
 
 ___
 #### Justifaction ##### 
-Write justifaction here.
+Works as intended, each of the cases are properly handled.
 
 ___
 ### Stage 2 ###
 
-- [ ] Perfect
+- [X] Perfect
 - [ ] Great
 - [ ] Good
 - [ ] Satisfactory
@@ -76,12 +76,12 @@ ___
 
 ___
 #### Justifaction ##### 
-Write justifaction here.
+The saturation cases for each direction are accounted for. Good comments.
 
 ___
 ### Stage 3 ###
 
-- [ ] Perfect
+- [X] Perfect
 - [ ] Great
 - [ ] Good
 - [ ] Satisfactory
@@ -89,33 +89,34 @@ ___
 
 ___
 #### Justifaction ##### 
-Write justifaction here.
+The comments are well written and the code cases are self-explanatory.
 
 ___
 ### Stage 4 ###
 
 - [ ] Perfect
-- [ ] Great
+- [X] Great
 - [ ] Good
 - [ ] Satisfactory
 - [ ] Unsatisfactory
 
 ___
 #### Justifaction ##### 
-Write justifaction here.
+Descriptive variable names, more or less clear flow of logic from part to part.
 
 ___
 ### Stage 5 ###
 
 - [ ] Perfect
-- [ ] Great
+- [X] Great
 - [ ] Good
 - [ ] Satisfactory
 - [ ] Unsatisfactory
 
 ___
 #### Justifaction ##### 
-Write justifaction here.
+Organized and well thought out logic for the inner box and corresponding camera control.
+Could provide a few more lines of comments on the math function and its flow.
 ___
 # Code Style #
 
@@ -133,9 +134,13 @@ Please refer to the first code review template on how to do a permalink.
 
 
 ## Code Style Infractures ##
+* [The variable name should follow the camelCase naming convention](https://github.com/ensemble-ai/exercise2-cameracontroller-failury/blob/3b426aa8d77e2f7c11cc98698d5d18df09e2492c/Obscura/Assets/Scripts/FourWaySpeedupPushZoneCameraController.cs#L29)
 
 ___
 #### Put style guide infractures ####
+* [Addition of parentheses to enclose the logic concatenated between the and symbol would help with clarity](https://github.com/ensemble-ai/exercise2-cameracontroller-failury/blob/3b426aa8d77e2f7c11cc98698d5d18df09e2492c/Obscura/Assets/Scripts/FourWaySpeedupPushZoneCameraController.cs#L48)
+
+* [The indentation should be consistent with the other lines](https://github.com/ensemble-ai/exercise2-cameracontroller-failury/blob/3b426aa8d77e2f7c11cc98698d5d18df09e2492c/Obscura/Assets/Scripts/TargetFocusLerpCameraController.cs#L30)
 
 ___
 
@@ -152,6 +157,15 @@ This should be similar to the Code Style justification.
 
 ## Best Practice observations ##
 
+The coding and style guides were followed to a good extent. The written code had a clear throughline which made it relatively easy to grasp. Although some of the variable names did not follow the designated camelCase conventions, they were descriptive enough to address the functionality of the function call without having to add extra comment lines. The comments also complemented the flow of the program where required, and helped aid in understanding.
+
+
 ___
 ### Put best practice observations here ###
+
+* [The variable names used here, translate the logic of the following operations clearly](https://github.com/ensemble-ai/exercise2-cameracontroller-failury/blob/3b426aa8d77e2f7c11cc98698d5d18df09e2492c/Obscura/Assets/Scripts/TargetFocusLerpCameraController.cs#L35)
+
+
+
+
 ___
