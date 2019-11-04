@@ -24,8 +24,8 @@ ___
 
 ## Peer-reviewer Information
 
-* *name:* [your name here] 
-* *email:* [your @ucdavis.edu email address here]
+* *name:* [Ajay Vincent Miranda] 
+* *email:* [avmiranda@ucdavis.edu]
 
 ### Description ###
 
@@ -55,7 +55,7 @@ ___
 
 ### Stage 1.1 ###
 
-- [ ] Perfect
+- [X] Perfect
 - [ ] Great
 - [ ] Good
 - [ ] Satisfactory
@@ -63,7 +63,8 @@ ___
 
 ___
 #### Justifaction ##### 
-Write justifaction here.
+The colorwatcher objects are instantiated according to each of the cases properly.
+The watcher function is called within update, and the color polling functionality works as intended.
 
 ___
 ### Stage 1.2 ###
@@ -71,17 +72,18 @@ ___
 - [ ] Perfect
 - [ ] Great
 - [ ] Good
-- [ ] Satisfactory
+- [X] Satisfactory
 - [ ] Unsatisfactory
 
 ___
 #### Justifaction ##### 
-Write justifaction here.
+While the functionality is written clearly, the throttle functionality to introduce a noticeable delay
+between each consecutive color change did not work as expected on testing with different values.
 
 ___
 ### Stage 2.1 ###
 
-- [ ] Perfect
+- [X] Perfect
 - [ ] Great
 - [ ] Good
 - [ ] Satisfactory
@@ -89,12 +91,12 @@ ___
 
 ___
 #### Justifaction ##### 
-Write justifaction here.
-
+The subscribe, unsubscribe and notify methods are self explantory. 
+Moreover, inclusion of the foreach method to loop through the list makes it concise. 
 ___
 ### Stage 2.2 ###
 
-- [ ] Perfect
+- [X] Perfect
 - [ ] Great
 - [ ] Good
 - [ ] Satisfactory
@@ -102,12 +104,13 @@ ___
 
 ___
 #### Justifaction ##### 
-Write justifaction here.
+The subscribe and unsubscribe methods add and remove the pikmini gameobject respectively
+as intended through their individual functionalities. 
 
 ___
 ### Stage 2.3 ###
 
-- [ ] Perfect
+- [X] Perfect
 - [ ] Great
 - [ ] Good
 - [ ] Satisfactory
@@ -115,12 +118,14 @@ ___
 
 ___
 #### Justifaction ##### 
-Write justifaction here.
+The SendMessageWithPublisher method correctly notifies each pikmini gameobject of 
+its respective destination in response to the UI button clicks in response to the 
+user's choice. 
 
 ___
 ### Stage 3 ###
 
-- [ ] Perfect
+- [X] Perfect
 - [ ] Great
 - [ ] Good
 - [ ] Satisfactory
@@ -128,7 +133,8 @@ ___
 
 ___
 #### Justifaction ##### 
-Write justifaction here.
+On triggering the Fire2 mouse button click, it instantiates the pikmini gameobject
+based on the prefab passed into its field as intended.
 
 ___
 # Code Style #
@@ -147,7 +153,8 @@ Please refer to the first code review template on how to do a permalink.
 
 
 ## Code Style Infractures ##
-
+There weren't any major code style infractures that hindered the flow of 
+logic throughout the code files. 
 ___
 #### Put style guide infractures ####
 
@@ -166,6 +173,19 @@ This should be similar to the Code Style justification.
 
 ## Best Practice observations ##
 
+He followed the best practices and style guide really well, since I did not have my understanding of 
+the written code impeded in any way. These practices consistenly helped parse the logic flow and code
+at a glance.
+
 ___
 ### Put best practice observations here ###
+
+*[Maintained a consistent pattern with keeping private variables](https://github.com/ensemble-ai/exercise3-observer-ssfaruque/blob/dcbc9136ec3cceb45f41cb424e607cffa02504a1/Pikmini/Assets/Scripts/MiniController.cs#L17)
+
+*[Kept the serialized fields private, not public ](https://github.com/ensemble-ai/exercise3-observer-ssfaruque/blob/dcbc9136ec3cceb45f41cb424e607cffa02504a1/Pikmini/Assets/Scripts/PikminiSpawner.cs#L8)
+
+*[Used a constructor for the class to initialize the list for each instantiated object](https://github.com/ensemble-ai/exercise3-observer-ssfaruque/blob/dcbc9136ec3cceb45f41cb424e607cffa02504a1/Pikmini/Assets/Scripts/Publisher.cs#L12)
+
+*[Using the foreach method to loop improves readability by a lot](https://github.com/ensemble-ai/exercise3-observer-ssfaruque/blob/dcbc9136ec3cceb45f41cb424e607cffa02504a1/Pikmini/Assets/Scripts/Publisher.cs#L19)
+
 ___
